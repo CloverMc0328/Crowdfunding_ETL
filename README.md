@@ -86,19 +86,19 @@ Choose one of the following options for extracting and transforming the data fro
 
 Here are the key requirements for each part of the project:
 
-- **Category DataFrame (15 points)**
+- **Category DataFrame**
   - Contains "category_id" and "category" columns.
   - "category_id" entries go sequentially from "cat1" to "catn".
   - "category" column contains only category titles.
   - Exported as "category.csv."
 
-- **Subcategory DataFrame (15 points)**
+- **Subcategory DataFrame**
   - Contains "subcategory_id" and "subcategory" columns.
   - "subcategory_id" entries go sequentially from "subcat1" to "subcatn".
   - "subcategory" column contains only subcategory titles.
   - Exported as "subcategory.csv."
 
-- **Campaign DataFrame (30 points)**
+- **Campaign DataFrame**
   - Contains specified columns with appropriate data types.
   - "launch_date" and "end_date" formatted as "YYYY-MM-DD."
   - "category_id" and "subcategory_id" contain unique identification numbers.
@@ -109,7 +109,7 @@ Here are the key requirements for each part of the project:
   - "name" column split into "first_name" and "last_name."
   - Exported as "contacts.csv."
 
-- **Crowdfunding Database (25 points)**
+- **Crowdfunding Database**
   - Database schema file ("crowdfunding_db_schema.sql") created.
   - "crowdfunding_db" database created with the correct schema.
   - Tables created with appropriate primary and foreign keys.
